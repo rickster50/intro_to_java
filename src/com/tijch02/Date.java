@@ -8,7 +8,7 @@ public class Date {
         int date = 10;
         int year = 2002;
         System.out.println(day + ", " + month + " " + date + ", "+year);
-        System.out.format("%s, %s %d, %d\n",day,month,date,year);
+        System.out.printf("%s, %s %d, %d\n",day,month,date,year);
         /*%s is a string %d is a number these values are substituted in from the arguments of the format function.
         The \n is a special character which starts a new line*/
 
@@ -23,6 +23,8 @@ public class Date {
 
         System.out.println("American format\n"+usDate);
         System.out.println("European format\n" +euroDate);
+
+
 
     }
 }
