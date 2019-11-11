@@ -8,8 +8,8 @@ public class Time {
         int seconds = 30;
 
         //convert to seconds;
-        int hoursInSeconds = 20 * 60 * 60;
-        int minsInSeconds = 14 * 60;
+        int hoursInSeconds =  hours * 60 * 60; //
+        int minsInSeconds = mins * 60;
         int secondsSinceMidnight = hoursInSeconds + minsInSeconds + seconds;
 
         System.out.println("Seconds since midnight");
