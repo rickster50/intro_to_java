@@ -12,6 +12,8 @@ public class Time {
         int minsInSeconds = mins * 60;
         int secondsSinceMidnight = hoursInSeconds + minsInSeconds + seconds;
 
+
+
         System.out.println("Seconds since midnight");
         System.out.println(secondsSinceMidnight);
 
