@@ -33,7 +33,7 @@ class MathRunnerTest {
     @Order(2)
     void testRoundingOfPI(){
         assertEquals(new BigDecimal("3.14159265358979"),runner.getPI(14));
-        assertEquals(new BigDecimal("3.142"),runner.getPI(3));
+        assertEquals(new BigDecimal("3.14"),runner.getPI(3));
     }
 
     @Test

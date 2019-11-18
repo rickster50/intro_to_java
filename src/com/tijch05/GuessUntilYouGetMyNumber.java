@@ -33,6 +33,7 @@ public class GuessUntilYouGetMyNumber {
             playGame();
         }
     }
+
     private void getGuessFromPrompt(){
             yourGuess = inputScanner.nextInt();
             numberOfGuesses++;
@@ -41,14 +42,14 @@ public class GuessUntilYouGetMyNumber {
         return yourGuess == myNumber;
     }
     private void display(String prompt){
-    System.out.println(prompt);
+        System.out.println(prompt);
     }
     private String getAppropriatePromptForNextGuess(){
         assert(yourGuess != myNumber);
         if (numberOfGuesses == 0) {
             return String.format(START_PROMPT_TEXT,upperBound);
         }
-        else if ( (myNumber-yourGuess) > 0 ){
+        else if ( (myNumber - yourGuess) > 0 ){
             return String.format(NEXT_GUESS_PROMPT_TEXT,yourGuess,"low");
         }
         else {
