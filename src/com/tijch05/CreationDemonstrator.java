@@ -3,6 +3,10 @@ package com.tijch05;
 
 public class CreationDemonstrator {
 
+    public CreationDemonstrator(){
+        super();
+    }
+
     public int getId() {
         return id;
     }
@@ -18,9 +22,8 @@ public class CreationDemonstrator {
         return name;
     }
 
-    public String setName(String theName) {
+    public void setName(String theName) {
         this.name = theName;
-        return theName;
     }
 
     private String name;

@@ -4,7 +4,7 @@ public class Creator {
 
     public static void main(String[] args){
         CreationDemonstrator c2 = new CreationDemonstrator();
-        CreationDemonstrator c1 = new CreationDemonstrator();
+        CreationDemonstrator c1 = new CreationDemonstratorSubClass();
         CreationDemonstrator c3 = new CreationDemonstrator();
 
         c1.setName("Richard");
@@ -21,7 +21,7 @@ public class Creator {
         System.out.println(c2.getName());
         System.out.println(c1.getName());
         System.out.println(c1.getId());
-        System.out.println(c2.setName("Junyi"));
+        //System.out.println(c2.setName("Junyi"));
         System.out.println(c1);
 
     }
