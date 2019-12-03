@@ -2,13 +2,6 @@ package com.tijch06;
 
 public class LoopDemoScope {
 
-
-
-
-
-
-
-
     public static void main(String [] args){
         //while loop continues while a condition is true
 
