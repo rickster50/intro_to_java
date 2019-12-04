@@ -8,6 +8,15 @@ public class LoopDemoWhile {
     static String testString = "abc";
     static String [] letterSource;
 
+    /*Change this to do the following
+    * getCandidateString should use a for loop again, or another type of approach so that we can change the length of the candidate
+    * string without changing the code further - the candidate should continue to be randomly generated
+    * Change the class so it no longer uses static methods and variables - so that we can create multiple instances of the class and run them
+    *
+    *
+    * The target is to be able to enter a letter source, and a candidate string, have
+    *  the probability of candidate string being found in one iteration calculated and displayed
+    * then the program to run and display the number of iterations actually required to get the candidate string*/
 
     private static void initialiseLetterSource(){
         letterSource = new String[]{"a","b", "c", "e", "d"}; //letterSource[0] == "a" letterSource[4] == "d"
