@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+
 class MathRunnerTest {
     private MathRunner runner;
 
